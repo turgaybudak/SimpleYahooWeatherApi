@@ -1,0 +1,5 @@
+C:\Users\413749\source\repos\TBHD\TBHD\bin\Debug\TBHD.dll
+C:\Users\413749\source\repos\TBHD\TBHD\bin\Debug\TBHD.pdb
+C:\Users\413749\source\repos\TBHD\TBHD\obj\Debug\TBHD.csproj.CoreCompileInputs.cache
+C:\Users\413749\source\repos\TBHD\TBHD\obj\Debug\TBHD.dll
+C:\Users\413749\source\repos\TBHD\TBHD\obj\Debug\TBHD.pdb
