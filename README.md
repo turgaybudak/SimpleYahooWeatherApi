@@ -8,4 +8,7 @@ using CloudWeather;
 
 //info cWeatherID search in http://woeid.rosselliot.co.nz/lookup/nevsehir
 //get Cloud Weather 
+ 
+ 
+ // This Code
  var CloudWeather= new HD().HavaDurumuSorgula("your-cAppID", "your-cConsumerKey", "your-cApcConsumerSecretpID", "cWeatherID");
