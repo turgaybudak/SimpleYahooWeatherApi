@@ -5,12 +5,12 @@ using System.Security.Cryptography;
 using System.Text;
 using System.Web.Script.Serialization;
 
-namespace CloudWeather
+namespace SimpleYahooWeatherForecast
 {
-    public class CloudWeather
+    public class WeatherForecast
     {
         // http://woeid.rosselliot.co.nz/lookup/ankara buradan konum id öğrenilebilir.//                                                                                                                                                    havadurumulokasyonu
-        public List<CloudWeather_Type> HavaDurumuSorgula(string cAppID, string cConsumerKey, string cConsumerSecret, string cWeatherID)
+        public List<WeatherForecast_Type> GetWeatherForecast(string cAppID, string cConsumerKey, string cConsumerSecret, string cWeatherID)
         {
             string cURL = "https://weather-ydn-yql.media.yahoo.com/forecastrss";
             string cOAuthVersion = "1.0";
@@ -26,7 +26,6 @@ namespace CloudWeather
             lClt.Headers.Add("Yahoo-App-Id", cAppID);
             lClt.Headers.Add("Authorization", _get_auth(cURL, cAppID, cConsumerKey, cConsumerSecret, cOAuthVersion, cOAuthSignMethod, cWeatherID, cUnitID, cFormat));
 
-
             byte[] lDataBuffer = lClt.DownloadData(lURL);
 
             var lOut = Encoding.ASCII.GetString(lDataBuffer);
@@ -36,13 +35,13 @@ namespace CloudWeather
             json = json.Substring(0, json.IndexOf("]") + 1);
 
             JavaScriptSerializer js = new JavaScriptSerializer();
-            CloudWeather_Type[] persons = js.Deserialize<CloudWeather_Type[]>(json);
+            WeatherForecast_Type[] persons = js.Deserialize<WeatherForecast_Type[]>(json);
 
-            List<CloudWeather_Type> DuzenliListe = new List<CloudWeather_Type>();
+            List<WeatherForecast_Type> DuzenliListe = new List<WeatherForecast_Type>();
 
             foreach (var item in persons)
             {
-                CloudWeather_Type Yeni = new CloudWeather_Type();
+                WeatherForecast_Type Yeni = new WeatherForecast_Type();
                 string veri = @"/Date(" + item.date + ")/";
                 DateTime unixEpoch = new DateTime(1970, 1, 1, 0, 0, 0, DateTimeKind.Utc);
                 Double milliseconds = Convert.ToDouble(item.date);
@@ -118,7 +117,7 @@ namespace CloudWeather
                    "oauth_version=\"" + cOAuthVersion + "\"";
         }  // end _get_auth
 
-        public class CloudWeather_Type
+        public class WeatherForecast_Type
         {
             public string day { get; set; }
             public string date { get; set; }

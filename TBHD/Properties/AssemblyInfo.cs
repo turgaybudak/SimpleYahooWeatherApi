@@ -4,13 +4,13 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("SimpleYahooWeather")]
-[assembly: AssemblyDescription("Weather forecast for Yahoo Weather Apps api  Sing in   https://developer.yahoo.com/  and  create App")]
+[assembly: AssemblyTitle("SimpleYahooWeatherForecast")]
+[assembly: AssemblyDescription("Weather forecast for Yahoo Weather Apps api  Sing in   https://developer.yahoo.com/  and  create App so easly")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("turgaybudak")]
-[assembly: AssemblyProduct("SimpleYahooWeather")]
+[assembly: AssemblyProduct("SimpleYahooWeatherForecast")]
 [assembly: AssemblyCopyright("Copyright © turgaybudak 2019")]
-[assembly: AssemblyTrademark("Not used by Nuget")]
+[assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
 // Setting ComVisible to false makes the types in this assembly not visible
@@ -31,5 +31,5 @@ using System.Runtime.InteropServices;
 // You can specify all the values or you can default the Build and Revision Numbers
 // by using the '*' as shown below:
 // [assembly: AssemblyVersion("1.0.*")]
-[assembly: AssemblyVersion("1.0.0.0")]
-[assembly: AssemblyFileVersion("1.0.0.0")]
+[assembly: AssemblyVersion("2.1.1.0")]
+[assembly: AssemblyFileVersion("2.1.1.0")]

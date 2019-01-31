@@ -7,8 +7,8 @@
     <ProjectGuid>{7B16A10A-A4B5-49C1-8FE1-1A29AE041A30}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>CloudWeather</RootNamespace>
-    <AssemblyName>CloudWeather</AssemblyName>
+    <RootNamespace>SimpleYahooWeatherForecast</RootNamespace>
+    <AssemblyName>SimpleYahooWeatherForecast</AssemblyName>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <Deterministic>true</Deterministic>
@@ -46,7 +46,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="CloudWeather.cs" />
+    <Compile Include="WeatherForecast.cs" />
     <Compile Include="JsonObjectConverter.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

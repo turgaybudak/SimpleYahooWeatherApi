@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Web.Script.Serialization;
 
-namespace CloudWeather
+namespace SimpleYahooWeatherForecast
 {
     public class JsonObjectConverter : JavaScriptConverter
     {

@@ -1,0 +1,6 @@
+C:\Users\413749\source\repos\TBHD\TBHD\bin\Debug\SimpleYahooWeatherForecast.dll
+C:\Users\413749\source\repos\TBHD\TBHD\bin\Debug\SimpleYahooWeatherForecast.pdb
+C:\Users\413749\source\repos\TBHD\TBHD\obj\Debug\SimpleYahooWeatherForecast.csproj.CoreCompileInputs.cache
+C:\Users\413749\source\repos\TBHD\TBHD\obj\Debug\SimpleYahooWeatherForecast.dll
+C:\Users\413749\source\repos\TBHD\TBHD\obj\Debug\SimpleYahooWeatherForecast.pdb
+C:\Users\413749\source\repos\TBHD\TBHD\obj\Debug\SimpleYahooWeatherForecast.csprojAssemblyReference.cache

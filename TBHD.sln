@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.106
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleYahooWeather", "TBHD\SimpleYahooWeather.csproj", "{7B16A10A-A4B5-49C1-8FE1-1A29AE041A30}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleYahooWeatherForecast", "TBHD\SimpleYahooWeatherForecast.csproj", "{7B16A10A-A4B5-49C1-8FE1-1A29AE041A30}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

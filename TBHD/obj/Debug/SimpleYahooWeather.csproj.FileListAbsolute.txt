@@ -1,5 +1,6 @@
 C:\Users\413749\source\repos\TBHD\TBHD\bin\Debug\CloudWeather.dll
 C:\Users\413749\source\repos\TBHD\TBHD\bin\Debug\CloudWeather.pdb
+C:\Users\413749\source\repos\TBHD\TBHD\obj\Debug\SimpleYahooWeather.csprojAssemblyReference.cache
 C:\Users\413749\source\repos\TBHD\TBHD\obj\Debug\SimpleYahooWeather.csproj.CoreCompileInputs.cache
 C:\Users\413749\source\repos\TBHD\TBHD\obj\Debug\CloudWeather.dll
 C:\Users\413749\source\repos\TBHD\TBHD\obj\Debug\CloudWeather.pdb
