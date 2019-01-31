@@ -4,10 +4,11 @@ Weather forecast for Yahoo Weather Apps api  Sing in   https://developer.yahoo.c
 
 Your Project
 // add using 
-using CloudWeather;
+using SimpleYahooWeatherForecast;
+
 
 //info cWeatherID search in http://woeid.rosselliot.co.nz/lookup/nevsehir
-//get Cloud Weather 
+//get Get Forecast 
  
  
  // This Code
