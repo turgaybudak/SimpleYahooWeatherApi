@@ -11,4 +11,4 @@ using CloudWeather;
  
  
  // This Code
- var CloudWeather= new HD().HavaDurumuSorgula("your-cAppID", "your-cConsumerKey", "your-cApcConsumerSecretpID", "cWeatherID");
+ var Forecasts = new WeatherForecast().GetWeatherForecast("your-cAppID", "your-cConsumerKey", "your-cApcConsumerSecretpID", "cWeatherID");
